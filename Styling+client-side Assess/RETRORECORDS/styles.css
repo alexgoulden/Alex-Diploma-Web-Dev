@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	position: relative;
+
+	background: #fbfbfb;
+}
+
+#logo-title {
+	max-width: 7vw;
+	min-width: 130px;
+	height: auto;
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
+.header-links {
+
+	position: relative;
+	display: inline-flex;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2rem;
+
+	color: #ff9040;
+}
+
+#hl1 {
+	padding-left: 20%;
+}
+
+#hl5 {
+	color: #EE1A54;
+}
+
+.record {
+    max-width: 3%;
+    min-width: 60px;
+    height: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.welcome {
+	font-weight: bold; 
+	text-align: center;
+	font-family: 'Oswald', Roboto;
+	padding-top: 10vh;
+	margin: 0;
+
+}
+
+.overview {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.column {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+}
+
+.feature {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color: #FEFEFE;
+
+}
+
+.feature-cont {
+	position: relative;
+	display: flex;
+	margin: auto;
+	width: 20vw;
+	height: auto;
+}
+
+.featured-text {
+	width: 30vw;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+	font-family: 'Oswald', Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 42px;
+	text-align: center;
+
+	color: #4E4E4E;
+}
+
+#mobile-rocket {
+	display: none;
+}
+
+.overview-h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #F1ECEF;
+}
+
+.overview-h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #D9D5D7;
+}
+
+.image-cards {
+	width: 80%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.details {
+	width: 50%;
+	height: auto;
+	margin: 5vh auto;
+	position: relative;
+	padding-top: 50px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	color: #4E4E4E;
+}
+
+
+/* about styles */
+.about-text {
+
+	font-family: 'Oswald', 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 42px;
+	text-align: center;
+	padding-top: 20vw;
+
+	color: #4E4E4E;
+
+}
+
+/* contact form styles */
+#loading-img {
+	display:none;
+}
+
+.response_msg {
+	margin-top:10px;
+	font-size:13px;
+	background:#E5D669;
+	color:#ffffff;
+	width:250px;
+	padding:3px;
+	display:none;
+}
+
+
+.footer-licence {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+/* w3 styles */
+.mySlides {
+    display:none;
+}
+
+/* w3 faq */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+
+  margin-left: 20vw;
+  padding: 18px;
+  width: 50vw;
+  border: none;
+
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+  font-family: 'Oswald', Roboto;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  margin-left: 20vw;
+  padding: 0 18px;
+  width: 50vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  font-size: 2rem;
+  font-family: Roboto;
+}
+
+.slider-img {
+	max-width: 60vw;
+	max-height: 80vh;
+	height: 35vw;
+	width: auto;
+
+}

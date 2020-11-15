@@ -1,0 +1,91 @@
+extracted from webdesign.about.com
+
+
+The html5 <figure> tag is a tag created to allow developers to associate images, graphs, pull quotes etc with the main flow of content while keeping them separate.
+
+A <figure> tag can be placed anywhere in the content without affecting the meaning of the document as a whole.
+
+In other words, the <figure> tag is essential to the main content of the page, but it's position on that page can change without affecting the meaning of the content.
+
+Note: <p> tags are not required within the <figcaption> tag.
+
+
+
+There are some specific images that SHOULD NOT be placed inside a <figure> tag
+
+- logo images
+- icons and site navigation images
+- images that must be in a specific position in the content, for example, step-by-step tasks that have images to support each step
+
+
+
+Figures Are More Than Images
+
+Applications of the <figure> tag iclude:
+
+- an image, with or without a caption
+- content that can be placed anywhere within the flow of content
+- videos that are related to the overall content
+- a comment or a quotation related to overall content 
+
+
+
+Not All Images Belong In A <figure> Tag
+
+If you can answer 'yes' to all these questions, then put the image in a <figure> tag
+
+- is the image part of the content of the page?
+- can the image appear anywhere within the content and not change the meaning?
+- can the image appear anywhere in the content and maintain its meaning?
+
+
+
+How is the <figure> tag different from an <aside> tag?
+
+The content within an <aside> tag is only tangentially related to the main content of the page. In other words, <figure> content is directly related to the page content and the <aside> tag content is only loosely related.
+
+The <aside> tag content is used for extra/additional content and is typically located in many third columns of web pages.
+
+
+
+Rules for applying <figure> and <figcaption> codes
+
+- the <figcaption> tag is optional
+- only ONE <figcaption> tag can be applied within a <figure> tag 
+- the <figcaption> tag can be the first child OR the last child of the <figure> tag
+
+
+<figure>
+<img ..... >
+  <figcaption>
+    this text describes the image and appears below the image 
+    /* no <p> tags are required inside the figcaption tag */
+  </figcaption>
+</figure>
+
+
+<figure>
+  <figcaption>
+    this text describes the image and appears above the image
+    /* no <p> tags are required inside the figcaption tag */
+  </figcaption>
+<img ..... >
+</figure>
+
+
+<figure>
+<img ..... >
+<img ..... >
+<img ..... >
+  <figcaption>
+  this text describes image 1, then image 2 and then image 3. The caption text appears below the image 
+  /* no <p> tags are required */
+  </figcaption>
+</figure>
+
+
+
+
+
+
+ 

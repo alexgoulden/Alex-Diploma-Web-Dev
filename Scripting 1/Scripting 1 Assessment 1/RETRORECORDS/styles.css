@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	margin: 0;
+
+	background: #fbfbfb;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#logo-title {
+	position: fixed;
+	max-width: 7vw;
+	min-width: 100px;
+	height: auto;
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
+.header-links {
+	margin-left: auto;
+	margin-right: 3%;
+	padding: .5%;
+
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2vw;
+
+	color: #ff9040;
+}
+
+#hl1 {
+	padding-left: 20%;
+}
+
+#hl5 {
+	color: #EE1A54;
+}
+
+.record {
+    max-width: 3%;
+    min-width: 60px;
+    height: auto;
+    position: static;
+	float: right;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.welcome {
+	font-weight: bold; 
+	text-align: center;
+	font-family: 'Oswald', Roboto;
+	padding-top: 10vh;
+	margin: 0;
+
+}
+
+.overview {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.feature {
+	width: 60%;
+	height: 40vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color: #FEFEFE;
+
+}
+
+.feature-1 {
+	position: relative;
+	display: flex;
+	margin: auto;
+	height: 30vh;
+	width: auto;
+}
+
+.feature-2 {
+	position: relative;
+	display: flex;
+	margin: auto;
+	height: 30vh;
+	width: auto;
+}
+
+.featured-text {
+	width: 100%;
+	height: auto;
+	position: relative;
+
+	font-family: 'Oswald', Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3rem;
+	line-height: 42px;
+	text-align: center;
+
+	color: #4E4E4E;
+}
+
+#mobile-rocket {
+	display: none;
+}
+
+.overview-h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #F1ECEF;
+}
+
+.overview-h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #D9D5D7;
+}
+
+.image-cards {
+	width: 80%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.details {
+	width: 50%;
+	height: auto;
+	margin: 5vh auto;
+	position: relative;
+	padding-top: 50px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	color: #4E4E4E;
+}
+
+
+/* about styles */
+.about-text {
+
+	font-family: 'Oswald', 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 42px;
+	text-align: center;
+	padding-top: 20vw;
+
+	color: #4E4E4E;
+
+}
+
+/* contact form styles */
+#loading-img {
+	display:none;
+}
+
+.response_msg {
+	margin-top:10px;
+	font-size:13px;
+	background:#E5D669;
+	color:#ffffff;
+	width:250px;
+	padding:3px;
+	display:none;
+}
+
+
+/* retro page */
+.retro-table {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	font-family: 'Oswald', Roboto;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.retro-img {
+	width: 30vw;
+}
+
+.footer-licence {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+/* w3 styles */
+.mySlides {
+    display:none;
+}
+
+/* w3 faq */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  margin-left: 20vw;
+  padding: 18px;
+  width: 50vw;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+  font-family: 'Oswald', Roboto;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  margin-left: 20vw;
+  padding: 0 18px;
+  width: 50vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  font-size: 2rem;
+  font-family: Roboto;
+}

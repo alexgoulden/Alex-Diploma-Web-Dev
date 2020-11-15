@@ -1,0 +1,9 @@
+
+#wrapper {
+box-shadow: h-shadow v-shadow blur spread colour
+}
+
+OR
+box-shadow: h-shadow v-shadow blur spread colour inset
+
+
