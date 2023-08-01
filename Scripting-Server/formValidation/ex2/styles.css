@@ -1,0 +1,45 @@
+label
+ {
+ width: 120px;
+ float: left;
+ text-align: left;
+ color: #666666;
+ margin-right: 0.5em;
+ display: block
+ }
+
+ .submit input
+ {
+ margin-left: 4.5em;
+ } 
+input
+ {
+
+ color: #781351;
+  border: 1px solid #999
+ }
+
+ .submit input
+ {
+ color: #000;
+ border: 4px outset #d7b9c9
+ } 
+fieldset
+ {
+ border: 1px solid #999;
+ width: 23em;
+ background-color: #E7F756;
+ }
+
+ legend
+ {
+ color: #fff;
+ background: #003300 ;
+ border: 2px solid #999;
+ padding: 2px 6px
+ } 
+
+select{float:left;
+	margin-left:20px;}
+#submit{margin-left:180px;}	
+	

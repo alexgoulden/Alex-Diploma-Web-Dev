@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+	<title>Response Form</title>
+	<link rel="stylesheet" type="text/css" href="response.css">
+
+</head>
+<body>
+
+
+<form action="response.php" method="post">
+<fieldset>
+<legend>Please complete</legend>
+ <p><label>Title</label> 
+	<select name="title">
+	<option value="C4S1D1">C4S1D1</option>
+	<option value="C4S1D2">C4S1D2</option>
+	<option value="C4S1D3">C4S1D3</option>
+	</select> </p><br/>
+
+
+<p>	<label>Student Number</label> <input type="number" name="stuNum" size="20"></p>
+
+	<p><label>Teaching method is....</label> 
+	<input type="radio" name="service" value="Excellent"> Excellent
+	<input type="radio" name="service" value="Okay"> Okay
+	<input type="radio" name="service" value="Boring"> Boring</p>
+
+	<p><label>Comments</label>  <textarea name="comments" rows="3" cols="30"></textarea></p>
+
+	<input type="submit" name="submit" value="Send">
+</fieldset>
+</form>
+</div>
+</body>
+</html>

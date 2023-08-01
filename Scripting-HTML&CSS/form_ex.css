@@ -1,0 +1,63 @@
+body {
+	font-family: arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+label, input {
+	width: 150px;
+	float: left;
+
+}
+
+br {
+	clear: left;
+}
+
+input {
+	text-align: right;
+}
+
+.feedback-form {
+	background: #666666;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+	width: 50%;
+}
+
+.feedbox {
+	background: #FFFACD;
+	margin: 0 10px 0 10px;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.sub-head {
+	background: #666666;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px;
+	top: 0;
+	left: 0;
+}
+
+#comm {
+	width: 200px;
+	height: 100px;
+	position: relative;
+}
+
+#submit {
+	font-size: 20px;
+	text-align: center;
+	background: #CDCDCD;
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 5px 30px 5px 30px;
+	margin: 10px;
+}
